@@ -1,3 +1,5 @@
+// 아래 코드의 func1,func2, func3, func4를 정의한 후 실행되도록 구현하라.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>

@@ -1,3 +1,10 @@
+// 3번 소스에 대해 데이터 생성부분을 일부 수정하여 다음 3가지 경우에 대해 성능측정을 하여 비교하라.
+// 그리고 selection sort 알고리즘의 경우 worst-case, best-case, average-case data의 구분이 있는지 기술하라.
+
+// 1. 입력데이터가 내림차순 정렬이 이미 되어 있는 경우
+// 2. 입력데이터가 오름차순 정렬이 이미 되어 있는 경우
+// 3. 입력데이터를 난수생성으로 만들어 사용하는 경우
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>

@@ -1,3 +1,6 @@
+// 아래 프로그램을 사용하여 선택정렬(Selection Sort) 에 대한 성능측정을 하라. 그리고 프로그램의 
+// 실행겨로가를 이용하여 그래프를 작성하라(Code Ver.)
+
 #define MAX_SIZE 1001
 
 #include <stdio.h>

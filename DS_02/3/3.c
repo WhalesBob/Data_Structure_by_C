@@ -1,3 +1,6 @@
+// 아래 프로그램을 이용하여 선택정렬(Selection Sort)에 대한 성능측정을 하라. 그리고 프로그램의 실행결과를 이용하여
+// 그래프를 작성하라. 또한, 문제 2의 결과와 같이 하나의 그래프로 작성해 비교해 보라. (Code Ver.)
+
 #include <stdio.h>
 #include <time.h>
 #define MAX_SIZE 1001
