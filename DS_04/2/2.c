@@ -1,3 +1,15 @@
+/*
+2. 다음 희소행렬(sparse matrix)에 대한 전치행렬(transpose matrix)을 구하는 함수로
+Program 2.9 fastTranspose를 구현하여 실행결과를 보여라. 출력 화면에 희소행렬과, 전치
+행렬의 모든 원소들의 값을 출력하고, 희소행렬(sparse matrix) 파일 a.txt의 전치행렬을 아
+래의 출력 파일 b.txt와 같이 파일에 저장하시오.
+
+[프로그램 설명]
+① 희소행렬(sparse matrix) 파일 a.txt을 사용하여 전치행렬(transpose matrix)을 구함
+② 출력 파일의 이름은 b.txt이며 입력 파일 a.txt의 전치행렬(transpose matrix)이다.
+③ 입력과 출력 파일인 희소행렬(sparse matrix)을 화면에 출력한다. 이때 0의 값을 갖는 항목도 함께 출력한다
+*/
+
 #define MALLOC(p,s){\
 	if(!((p) = malloc(s))){\
 		fprintf(stderr,"Insufficient Memory");\

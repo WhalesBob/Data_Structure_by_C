@@ -1,3 +1,25 @@
+/*
+3. 위 2번 문제에서 fastTranspose 함수의 파라미터를 구조체 포인터로 정의하여 사용할 수
+있다. 다음과 같이 수정된 함수 fastTranspose1을 사용하여 전치행렬을 구하는 프로그램을
+작성하라.
+
+void fastTranspose1( term *a, term *b);
+{
+a, b배열 원소를 구조체멤버 참조연산자 (->)를 사용한 표현으로 바꾸기
+}
+int main(void)
+{
+... fastTranspose1(a, b);
+}
+void fastTranspose1(term *a, term *b)
+{  //the transpose of a is placed in b 
+int rowTerms[MAX_COL], startingPos[MAX_COL];
+int i, j, numCols = a->col, numTerms = a->value; ....
+}
+
+프로그림 수행 결과는 2번 문제와 동일 함.
+*/
+
 #define MALLOC(p,s){\
 	if(!((p) = malloc(s))){\
 		fprintf(stderr,"Insufficient Memory");\
