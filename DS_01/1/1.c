@@ -1,3 +1,10 @@
+// 형식 매개변수가 다른 세 가지 버전의 함수를 각각 정의하고 실행되도록 작성하라. 
+
+// 프로그램 설명
+// int sunAry2D_f1(int ary[][3], int ROW, int COL); // 배열파라미터 // 권장
+// int sumAry2D_f2(int (*ary)[3], int ROW) // 배열포인터
+// int sumAry2D_f3[3][3];
+
 #include <stdio.h>
 
 int sumAry2D_f1(int ary[][3],int ROW, int COL);
