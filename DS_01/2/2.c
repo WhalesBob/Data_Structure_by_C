@@ -1,3 +1,5 @@
+// 메모리 동적 할당과 해제에 대해, 보다 견고한 할당이 될 수 있따록 매크로를 사용하여 다시 작성하여 출력하세요
+
 #define MALLOC(p,s)  \
 	if (!((p) = malloc(s))){  \
 		fprintf(stderr, "Insufficient memory"); \
